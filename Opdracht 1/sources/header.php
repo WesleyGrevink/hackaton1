@@ -18,18 +18,22 @@
       <div class="nav-wrapper">
         <a href="#!" class="brand-logo"><i class="material-icons">flare</i></a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
+        <ul style="margin-left: 45px;"class="left hide-on-med-and-down">
           <li><a href="index.php">Home</a></li>
 
-          <li><a class='dropdown-trigger btn' href='#'style="width: 15em;"  data-target='dropdown1'>Drop Me!</a>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+
+
+          <li><a class='dropdown-trigger btn' href='#'style="width: 15em;"  data-target='dropdown1'>Alle Continenten<i class="material-icons right">arrow_drop_down</i></a>
             <ul id='dropdown1' class='dropdown-content' >
               <li><a href="#!">Sluiten</a></li>
-              <li><a href="https://google.com">Europa</a></li>
-              <li><a href="#!">Azië</a></li>
-              <li><a href="#!">Noord-Amerika</a></li>
-              <li><a href="#!">Zuid-Amerika</a></li>
-              <li><a href="#!">Antarctica</a></li>
-              <li><a href="#!">Oceanië</a></li>
+              <li><a href="europa.php">Europa</a></li>
+              <li><a href="azie.php">Azië</a></li>
+              <li><a href="noordamerika.php">Noord-Amerika</a></li>
+              <li><a href="zuidamerika.php">Zuid-Amerika</a></li>
+              <li><a href="antarctica.php">Antarctica</a></li>
+              <li><a href="oceanie.php">Oceanië</a></li>
               <li><a href="afrika.php">Afrika</a></li>
 
 
